@@ -22,7 +22,7 @@
         name="displayName"
         placeholder="Enter a display name" 
         [(ngModel)]="displayName" class="formInput"
-        maxlength="12" required/>
+        maxlength="15" required/>
 
       <button [disabled]="!signupForm.form.valid" 
               type="submit" (click)="signUp()"
